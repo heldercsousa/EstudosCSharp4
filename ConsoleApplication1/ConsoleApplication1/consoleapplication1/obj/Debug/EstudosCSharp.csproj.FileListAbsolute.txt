@@ -1,0 +1,6 @@
+c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.exe.config
+c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.exe
+c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.pdb
+c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csprojResolveAssemblyReference.cache
+c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.exe
+c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.pdb

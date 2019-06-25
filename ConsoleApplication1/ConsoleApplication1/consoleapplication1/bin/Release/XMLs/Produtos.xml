@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product Name="Chai" Price="18.00" />
+  <Product Name="Chang" Price="19.00" />
+  <Product Name="Aniseed Syrup" Price="10.00" />
+  <Product Name="Chef Anton’s Cajun Seasoning" Price="22.00" />
+  <Product Name="Chef Anton’s Gumbo Mix" Price="21.35" />
+  <Product Name="Grandma’s Boysenberry Spread" Price="25.00" />
+  <Product Name="Uncle Bob’s Organic Dried Pears" Price="30.00" />
+  <Product Name="Northwoods Cranberry Sauce" Price="40.00" />
+  <Product Name="Mishi Kobe Niku" Price="97.00" />
+  <Product Name="Ikura" Price="31.00" />
+</Products>
