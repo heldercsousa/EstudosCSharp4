@@ -9,6 +9,7 @@ using EstudosCSharp.Generics;
 using EstudosCSharp.Delegates;
 using EstudosCSharp.Linq;
 using EstudosCSharp.DesignPatterns;
+using EstudosCSharp.BCL;
 
 namespace EstudosCSharp
 {
@@ -21,11 +22,11 @@ namespace EstudosCSharp
         {
 
             //construindo um filtro genérico
-           /* 
-            */
-            
-         
-          
+            /* 
+             */
+
+
+
 
             //testando jeito imperativo de codificar
             /*PrintProductList(Fundamentals.GetProductsLowerThan(25));
@@ -71,14 +72,12 @@ namespace EstudosCSharp
             Internals.OrderingExample();
             Fundamentals.PrintAverageByCategory();*/
 
-            ObjAdaptar ob = new ObjAdaptar();
-            ob.FazerAlgo();
-            ob = new Adapter(new ObjAdaptador());
-            ob.FazerAlgo();
-            
-
-
-            Console.ReadLine();
+            /* ObjAdaptar ob = new ObjAdaptar();
+             ob.FazerAlgo();
+             ob = new Adapter(new ObjAdaptador());
+             ob.FazerAlgo();
+             Console.ReadLine();
+             */
 
             /*invocando eventos de dentro de Subtipos*/
             /*var countDown = new CountDownSubtype();
@@ -98,7 +97,7 @@ namespace EstudosCSharp
             countDown1.Start();
             Console.ReadLine();
             */
-            
+
 
             /*detach handlers in countdown -- certo*/
             /*
@@ -155,19 +154,19 @@ namespace EstudosCSharp
             Console.ReadLine();*/
 
             /*delegates tests 003*/
-           /* var countDown = new CountDownEvent(5);
-            countDown.Tick += currentSecond => Console.WriteLine(currentSecond);//lambda expressions
-            countDown.Finished += () => Console.Beep();//lambda expressions
-            countDown.Start();
-            Console.ReadLine();*/     
-            
+            /* var countDown = new CountDownEvent(5);
+             countDown.Tick += currentSecond => Console.WriteLine(currentSecond);//lambda expressions
+             countDown.Finished += () => Console.Beep();//lambda expressions
+             countDown.Start();
+             Console.ReadLine();*/
+
             //Console.WriteLine("AddExpression: ")  +AnonymousFunctionClosuresExamples.addExpression(1,2));
             //AnonymousFunctionClosuresExamples.ExampleOfNoisedLambda();
-           // AnonymousFunctionClosuresExamples.ExampleSpaceLeak();
-            
+            // AnonymousFunctionClosuresExamples.ExampleSpaceLeak();
+
 
             /*Generics Tests*/
-           // TryOrderedList();
+            // TryOrderedList();
 
             /*Generics Performance Test*/
             /*MeasureTest01.MeasureArrayList();
@@ -178,12 +177,21 @@ namespace EstudosCSharp
             Console.ReadLine();*/
 
             /*Generics Default Constructor Constraint test*/
-           /* Factory<int> fct = new Factory<int>();
-            var zero = fct.CreateInstance(); //aceito pq tem um construtor default
-            Console.WriteLine("zero:" + zero);
-            //var fctString = new Factory<string>(); //rejeitado pq não tem um default constructor sem parametros
-            Console.ReadLine();
-            * */
+            /* Factory<int> fct = new Factory<int>();
+             var zero = fct.CreateInstance(); //aceito pq tem um construtor default
+             Console.WriteLine("zero:" + zero);
+             //var fctString = new Factory<string>(); //rejeitado pq não tem um default constructor sem parametros
+             Console.ReadLine();
+             * */
+
+
+            /* BCL studies */
+            //CultureFormatting.TryParseNumbersByCulture();
+            //CultureFormatting.PrintTimeZone();
+            //CultureFormatting.PrintTimeZoneInfo();
+            //CultureFormatting.TestCommandLine(args);
+            //CultureFormatting.MyAppRunsFrom();
+            CultureFormatting.ChildProcess();
 
         }
 

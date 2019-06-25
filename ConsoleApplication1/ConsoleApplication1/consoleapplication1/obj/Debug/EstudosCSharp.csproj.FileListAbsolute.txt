@@ -4,3 +4,10 @@ c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleAppl
 c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csprojResolveAssemblyReference.cache
 c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.exe
 c:\users\l\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.pdb
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csprojAssemblyReference.cache
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csproj.CoreCompileInputs.cache
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.exe.config
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.exe
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.pdb
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.exe
+C:\Users\heldersousa\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.pdb

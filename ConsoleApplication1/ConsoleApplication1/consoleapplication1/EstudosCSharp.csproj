@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BCL\CultureFormatting.cs" />
     <Compile Include="Delegates\AnonymousFunctionClosuresExamples.cs" />
     <Compile Include="Delegates\CountDownDelegate.cs" />
     <Compile Include="Delegates\CountDownSubtype.cs" />
