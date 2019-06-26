@@ -96,5 +96,53 @@ namespace EstudosCSharp.BCL
             System.Diagnostics.Process.Start("cmd.exe");
             Console.ReadLine();
         }
+
+        public static void FormatingNumberToString()
+        {
+            Console.WriteLine(123.45.ToString(new CultureInfo("en-US")));
+            Console.WriteLine(123.45.ToString(new CultureInfo("nl-BE")));
+            Console.ReadKey();
+        }
+
+        public static void Sifrao()
+        {
+            var enUS = new CultureInfo("en-US");
+            var nlBE = new CultureInfo("nl-BE");
+            var jaJP = new CultureInfo("ja-JP");
+            double d = 123.456;
+            int i = 1234;
+            long l = 123456789;
+            // Currency, usable for all numeric values // Number of decimal digits determined from culture or explicitly 
+            Console.WriteLine(d.ToString("C", enUS));  // $ 123.46 
+            Console.WriteLine(d.ToString("C", nlBE));  // &euro; 123,46 
+            Console.WriteLine(d.ToString("C", jaJP));  // ¥ 123 
+            Console.WriteLine(d.ToString("C3", enUS)); // $ 123.456 
+            Console.WriteLine(d.ToString("C0", nlBE)); // &euro; 123 
+            Console.WriteLine(d.ToString("C2", jaJP)); // ¥ 123.46
+                                                       // Decimal, usable for integral values only 
+            // Number of digits controls left padding with zeros 
+            Console.WriteLine(i.ToString("D", enUS));  // 1234 
+            Console.WriteLine(i.ToString("D5", nlBE)); // 01234
+                                                       // Scientific notation with exponent 
+            // Default decimal precision is 6 but can be controlled 
+            Console.WriteLine(l.ToString("E", enUS));  // 1.234568E+008 
+            Console.WriteLine(l.ToString("E3", enUS)); // 1.235E+008
+
+
+            // Digit placeholders 
+            // Doesn’t insert zeros if no digit appears at the given position 
+            Console.WriteLine(i.ToString("#####", enUS)); // 1234
+
+            
+            // Zero placeholders 
+            // Inserts zeros if no digit appears at the given position 
+            Console.WriteLine(i.ToString("00000", enUS)); // 01234
+            
+            // Decimal point 
+            // Here mixed used with trailing zero padding 
+            Console.WriteLine(d.ToString("0###.##", enUS)); // 0123.46
+    
+            Console.Read();
+        }
     }
 }

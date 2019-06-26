@@ -191,7 +191,9 @@ namespace EstudosCSharp
             //CultureFormatting.PrintTimeZoneInfo();
             //CultureFormatting.TestCommandLine(args);
             //CultureFormatting.MyAppRunsFrom();
-            CultureFormatting.ChildProcess();
+            //CultureFormatting.ChildProcess();
+            //CultureFormatting.FormatingNumberToString();
+            CultureFormatting.Sifrao();
 
         }
 

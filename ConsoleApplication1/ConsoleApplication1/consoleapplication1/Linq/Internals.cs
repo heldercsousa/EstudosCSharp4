@@ -355,7 +355,7 @@ namespace EstudosCSharp.Linq
 
         public static void Restrictions()
         {
-            // { “Bart”, “Lisa” }
+            // { "Bart”, “Lisa” }
             var res = new [] { "Bart", "Homer", "Lisa" }.Where(s => s.Length == 4);
 
             // { “Zero”, “Two” }
