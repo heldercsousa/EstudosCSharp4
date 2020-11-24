@@ -10,6 +10,7 @@ using EstudosCSharp.Delegates;
 using EstudosCSharp.Linq;
 using EstudosCSharp.DesignPatterns;
 using EstudosCSharp.BCL;
+using System.Collections.Concurrent;
 
 namespace EstudosCSharp
 {
@@ -185,7 +186,7 @@ namespace EstudosCSharp
              * */
 
 
-            /* BCL studies */
+            /****** BCL studies *******/
             //CultureFormatting.TryParseNumbersByCulture();
             //CultureFormatting.PrintTimeZone();
             //CultureFormatting.PrintTimeZoneInfo();
@@ -193,7 +194,34 @@ namespace EstudosCSharp
             //CultureFormatting.MyAppRunsFrom();
             //CultureFormatting.ChildProcess();
             //CultureFormatting.FormatingNumberToString();
-            CultureFormatting.Sifrao();
+            //CultureFormatting.Sifrao();
+
+            ////// PerfomanceCounter
+            //BCL.Diagnostics.DevelopmentTime.PerfomanceCounter.MimicBankTransaction();
+
+            ////// Assertions
+            //BCL.Diagnostics.DevelopmentTime.Assertions.DebugIndent();
+            //BCL.Diagnostics.DevelopmentTime.Assertions.DebugAssert(0, 1);
+            //BCL.Diagnostics.DevelopmentTime.Assertions.DebugFail(0, 1);
+            //BCL.Diagnostics.DevelopmentTime.Assertions.DebugAssert(2, 1);
+            //BCL.Diagnostics.DevelopmentTime.Assertions.DebugFail(2, 1);
+            //Console.Read();
+
+            ////// StackTrace
+            //BCL.Diagnostics.DevelopmentTime.StackTrace.DecomposeStackTraceFrames();
+            //BCL.Diagnostics.DevelopmentTime.StackTrace.CreateStackTraceWithFileInfo();
+            //Console.Read();
+
+            ////// EventLogs
+            //BCL.Diagnostics.Instrumentation.EventLogs.CreateEventSource();
+            //BCL.Diagnostics.Instrumentation.EventLogs.WriteLogToEventSource();
+
+            ////// NET
+            NET.WebRequest.RequestCatsDataWebRequest();
+            NET.WebRequest.RequestCatsDataHttpWebRequest();
+            NET.WebClient.RequestCatsData();
+            NET.HttpClient.RequestCatsData();
+            Console.Read();
 
         }
 

@@ -22,3 +22,10 @@ C:\Users\HELDER\Documents\Visual Studio 2013\Projects\EstudosCSharp-ConsoleAppli
 C:\Users\HELDER\Documents\Visual Studio 2013\Projects\EstudosCSharp-ConsoleApplication_Bkp20150402\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Release\EstudosCSharp.exe
 C:\Users\HELDER\Documents\Visual Studio 2013\Projects\EstudosCSharp-ConsoleApplication_Bkp20150402\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Release\EstudosCSharp.pdb
 C:\Users\HELDER\Documents\Visual Studio 2013\Projects\EstudosCSharp-ConsoleApplication_Bkp20150402\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Release\EstudosCSharp.csprojResolveAssemblyReference.cache
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Release\EstudosCSharp.exe.config
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Release\EstudosCSharp.exe
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Release\EstudosCSharp.pdb
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Release\EstudosCSharp.csprojAssemblyReference.cache
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Release\EstudosCSharp.csproj.CoreCompileInputs.cache
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Release\EstudosCSharp.exe
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Release\EstudosCSharp.pdb
