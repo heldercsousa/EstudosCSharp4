@@ -55,6 +55,7 @@
     <Compile Include="BCL\Diagnostics\DevelopmentTime\StackTrace.cs" />
     <Compile Include="BCL\Diagnostics\DevelopmentTime\StopWatch.cs" />
     <Compile Include="BCL\Diagnostics\Instrumentation\EventLogs.cs" />
+    <Compile Include="BCL\Diagnostics\Processes\ProcessesInfo.cs" />
     <Compile Include="Delegates\AnonymousFunctionClosuresExamples.cs" />
     <Compile Include="Delegates\CountDownDelegate.cs" />
     <Compile Include="Delegates\CountDownSubtype.cs" />
@@ -74,6 +75,11 @@
     <Compile Include="Generics\OrderedList.cs" />
     <Compile Include="Generics\PerformanceMeasure.cs" />
     <Compile Include="Generics\Variance.cs" />
+    <Compile Include="IO\Async\Stream.cs" />
+    <Compile Include="IO\Sync\FileRead.cs" />
+    <Compile Include="IO\FileSystemActivity.cs" />
+    <Compile Include="IO\Sync\FileWrite.cs" />
+    <Compile Include="IO\Sync\Stream.cs" />
     <Compile Include="Linq\Fundamentals.cs" />
     <Compile Include="LinqToSQL\Produtos.designer.cs">
       <AutoGen>True</AutoGen>
@@ -106,6 +112,7 @@
     <None Include="LinqToSQL\Produtos.dbml.layout">
       <DependentUpon>Produtos.dbml</DependentUpon>
     </None>
+    <None Include="Properties\DataSources\EstudosCSharp.LinqToSQL.Produto.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

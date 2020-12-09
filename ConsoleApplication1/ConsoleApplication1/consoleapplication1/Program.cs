@@ -11,6 +11,7 @@ using EstudosCSharp.Linq;
 using EstudosCSharp.DesignPatterns;
 using EstudosCSharp.BCL;
 using System.Collections.Concurrent;
+using System.IO;
 
 namespace EstudosCSharp
 {
@@ -35,8 +36,9 @@ namespace EstudosCSharp
             PrintProductList(Fundamentals.GetXMLProductsLowerThan25());
             PrintProductList(Fundamentals.GetLinqProductsLowerThan(25));
             PrintDictionaryList(Fundamentals.RankingByEachTen());
-            PrintDictionaryList(Fundamentals.RankingByEach10Linq());
-            PrintLinqProductList(Fundamentals.GetLinqToSQLProductsLowerThan(25));
+            PrintDictionaryList(Fundamentals.RankingByEach10Linq());*/
+            //PrintLinqProductList(Fundamentals.GetLinqToSQLProductsLowerThan(25));
+            /*
             PrintProductList(Fundamentals.GetLinqToXMLProductsLowerThan(25m));
             PrintStringList(Fundamentals.GetProductNames());
             Fundamentals.GetWindowsProcesses();
@@ -216,13 +218,45 @@ namespace EstudosCSharp
             //BCL.Diagnostics.Instrumentation.EventLogs.CreateEventSource();
             //BCL.Diagnostics.Instrumentation.EventLogs.WriteLogToEventSource();
 
-            ////// NET
-            NET.WebRequest.RequestCatsDataWebRequest();
-            NET.WebRequest.RequestCatsDataHttpWebRequest();
-            NET.WebClient.RequestCatsData();
-            NET.HttpClient.RequestCatsData();
-            Console.Read();
+            ////// PROCESS
+            //BCL.Diagnostics.Processes.ProcessesInfo.QueryProcessesInfoGreaterThan(50);
+            //BCL.Diagnostics.Processes.ProcessesInfo.StartProcess("cmd.exe");
+            ////BCL.Diagnostics.Processes.ProcessesInfo.StartProcess("https://www.youtube.com/watch?v=qIikGK0MmBE&list=RDMMC8mS1CVXjys&index=3");
+            //BCL.Diagnostics.Processes.ProcessesInfo.StartProcessAsync("cmd.exe");
+            //Console.WriteLine("press some key to exit");
+            //Console.Read();
 
+            ////// NET
+            //NET.WebRequest.RequestCatsDataWebRequest();
+            //NET.WebRequest.RequestCatsDataHttpWebRequest();
+            //NET.WebClient.RequestCatsData();
+            //NET.HttpClient.RequestCatsData();
+            //Console.Read();
+
+            ////// IO - sync read 
+            //IO.FileSystemActivity.Watch(Path.Combine(@"c:\", "temp"), "*.*");
+            //IO.Sync.FileRead.ReadAllLines(@"..\..\Program.cs");
+            //IO.Sync.FileRead.ReadAllText(@"..\..\Program.cs");
+            //IO.Sync.FileRead.ReadAllBytes(@"..\..\Program.cs");
+            //IO.Sync.FileRead.ReadLines(@"..\..\Program.cs");
+            //IO.Sync.FileWrite.WriteAllLines(@"..\..\Program.cs", @"..\..\Program.bak");
+            //IO.Sync.FileWrite.AppendAllLines(new string[] { "Helder", "Sousa", "Appended as lines" }, @"..\..\Program.bak");
+            //IO.Sync.FileWrite.AppendAllText("Helder Sousa Appended as a single text", @"..\..\Program.bak");
+            //IO.Sync.FileWrite.FileCreateText(@"..\..\Log.cs");
+            //IO.Sync.FileRead.FileOpenText(@"..\..\Log.cs");
+            //IO.Sync.FileRead.ReaderRead(@"..\..\Log.cs");
+            //IO.Sync.FileRead.ConsoleInOut();
+            //IO.Sync.FileRead.ConsoleSetIn(@"..\..\Program.cs");
+            //IO.Sync.FileRead.StringReaderAndWriter();
+            //IO.Sync.Stream.TwoMemoryStreamsOverSingleDataSync();
+            //IO.Sync.Stream.FileStreamFromAnExeSync();
+            //IO.Sync.Stream.BinaryReaderGetsFileSignatureSync();
+            //IO.Async.Stream.FileStreamAsync();
+            //IO.Async.Stream.FileStreamWithStateAsync();
+            var h = IO.Async.Stream.DelegateInvocation().AsyncWaitHandle;
+            h.WaitOne();
+            Console.Write("press any key to exit");
+            Console.ReadKey();
         }
 
         static void countDown1_Finished(object sender, EventArgs e)
