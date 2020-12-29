@@ -99,8 +99,13 @@ namespace EstudosCSharp.BCL
 
         public static void FormatingNumberToString()
         {
+            Console.WriteLine("Format Number to String");
             Console.WriteLine(123.45.ToString(new CultureInfo("en-US")));
             Console.WriteLine(123.45.ToString(new CultureInfo("nl-BE")));
+            Console.WriteLine("{0:N2}", 29.32f);  // c 2 casas decimais 23,55 por ex
+            Console.WriteLine("{0:C1}", 29.32f);  // c 1 casa decimal 29.32 com cifrão da cultura corrente
+            Console.WriteLine(29.99f.ToString("0000.###"));
+            Console.WriteLine(10.ToString("00000"));
             Console.ReadKey();
         }
 
@@ -137,11 +142,38 @@ namespace EstudosCSharp.BCL
             // Zero placeholders 
             // Inserts zeros if no digit appears at the given position 
             Console.WriteLine(i.ToString("00000", enUS)); // 01234
-            
+
+           
+
             // Decimal point 
             // Here mixed used with trailing zero padding 
             Console.WriteLine(d.ToString("0###.##", enUS)); // 0123.46
     
+            Console.Read();
+        }
+
+        /// <summary>
+        /// using standard format specifiers for datetime
+        /// </summary>
+        public static void DateTimeFormats()
+        {
+            Console.WriteLine("Format DateTime to String");
+            DateTime dt = DateTime.Now;
+            Console.WriteLine("{0:t}", dt);  // "4:05 PM"                         ShortTime
+            Console.WriteLine("{0:d}", dt);  // "3/9/2008"                        ShortDate
+            Console.WriteLine("{0:T}", dt);  // "4:05:07 PM"                      LongTime
+            Console.WriteLine("{0:D}", dt);  // "Sunday, March 09, 2008"          LongDate
+            Console.WriteLine("{0:f}", dt);  // "Sunday, March 09, 2008 4:05 PM"  LongDate+ShortTime
+            Console.WriteLine("{0:F}", dt);  // "Sunday, March 09, 2008 4:05:07 PM" FullDateTime
+            Console.WriteLine("{0:g}", dt);  // "3/9/2008 4:05 PM"                ShortDate+ShortTime
+            Console.WriteLine("{0:G}", dt);  // "3/9/2008 4:05:07 PM"             ShortDate+LongTime
+            Console.WriteLine("{0:m}", dt);  // "March 09"                        MonthDay
+            Console.WriteLine("{0:y}", dt);  // "March, 2008"                     YearMonth
+            Console.WriteLine("{0:r}", dt);  // "Sun, 09 Mar 2008 16:05:07 GMT"   RFC1123
+            Console.WriteLine("{0:s}", dt);  // "2008-03-09T16:05:07"             SortableDateTime
+            Console.WriteLine("{0:u}", dt);  // "2008-03-09 16:05:07Z"            UniversalSortableDateTime
+            Console.WriteLine("{0:MM/dd/yyy}", dt);
+
             Console.Read();
         }
     }

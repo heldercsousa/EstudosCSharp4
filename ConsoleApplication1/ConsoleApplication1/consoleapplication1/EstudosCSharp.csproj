@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>EstudosCSharp.Program</StartupObject>
@@ -49,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assemblyy\Samples.cs" />
     <Compile Include="BCL\CultureFormatting.cs" />
     <Compile Include="BCL\Diagnostics\DevelopmentTime\Assertions.cs" />
     <Compile Include="BCL\Diagnostics\DevelopmentTime\PerfomanceCounter.cs" />
@@ -56,6 +59,7 @@
     <Compile Include="BCL\Diagnostics\DevelopmentTime\StopWatch.cs" />
     <Compile Include="BCL\Diagnostics\Instrumentation\EventLogs.cs" />
     <Compile Include="BCL\Diagnostics\Processes\ProcessesInfo.cs" />
+    <Compile Include="BCL\FormattingByHand.cs" />
     <Compile Include="Delegates\AnonymousFunctionClosuresExamples.cs" />
     <Compile Include="Delegates\CountDownDelegate.cs" />
     <Compile Include="Delegates\CountDownSubtype.cs" />
@@ -75,11 +79,14 @@
     <Compile Include="Generics\OrderedList.cs" />
     <Compile Include="Generics\PerformanceMeasure.cs" />
     <Compile Include="Generics\Variance.cs" />
+    <Compile Include="Interfaces\VisibilitySample.cs" />
     <Compile Include="IO\Async\Stream.cs" />
+    <Compile Include="IO\NamedPipes.cs" />
     <Compile Include="IO\Sync\FileRead.cs" />
     <Compile Include="IO\FileSystemActivity.cs" />
     <Compile Include="IO\Sync\FileWrite.cs" />
     <Compile Include="IO\Sync\Stream.cs" />
+    <Compile Include="LinqToXML\Samples.cs" />
     <Compile Include="Linq\Fundamentals.cs" />
     <Compile Include="LinqToSQL\Produtos.designer.cs">
       <AutoGen>True</AutoGen>
@@ -101,6 +108,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Regexs\Samples.cs" />
+    <Compile Include="Security\Crypto\Symmetric\Aes.cs" />
+    <Compile Include="Security\UnhandledException.cs" />
+    <Compile Include="Systems\Dynamic\ExpandoObject.cs" />
+    <Compile Include="Systems\WeakReference.cs" />
+    <Compile Include="Threads\Samples.cs" />
+    <Compile Include="XMLDOM\Samples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -122,11 +136,17 @@
     <Content Include="XMLs\Produtos.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="XMLs\PurchaseOrder.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Security\Crypto\Asymmetric\" />
+    <Folder Include="Security\Crypto\Hash\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

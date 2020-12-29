@@ -197,6 +197,8 @@ namespace EstudosCSharp
             //CultureFormatting.ChildProcess();
             //CultureFormatting.FormatingNumberToString();
             //CultureFormatting.Sifrao();
+            //CultureFormatting.DateTimeFormats();
+            FormattingByHand.UsingStringFormat();
 
             ////// PerfomanceCounter
             //BCL.Diagnostics.DevelopmentTime.PerfomanceCounter.MimicBankTransaction();
@@ -229,7 +231,11 @@ namespace EstudosCSharp
             ////// NET
             //NET.WebRequest.RequestCatsDataWebRequest();
             //NET.WebRequest.RequestCatsDataHttpWebRequest();
+            //NET.WebRequest.RequestCatsDataHttpWebRequestAndWritesFile();
             //NET.WebClient.RequestCatsData();
+            //NET.WebClient.DownloadFile();
+            //NET.WebClient.DownloadFileAsync();
+            //NET.WebClient.DownloadFileData();
             //NET.HttpClient.RequestCatsData();
             //Console.Read();
 
@@ -243,6 +249,8 @@ namespace EstudosCSharp
             //IO.Sync.FileWrite.AppendAllLines(new string[] { "Helder", "Sousa", "Appended as lines" }, @"..\..\Program.bak");
             //IO.Sync.FileWrite.AppendAllText("Helder Sousa Appended as a single text", @"..\..\Program.bak");
             //IO.Sync.FileWrite.FileCreateText(@"..\..\Log.cs");
+            //IO.Sync.FileWrite.BinaryFormatterSerialize();
+            //IO.Sync.FileWrite.BinaryFormatterDeserialize();
             //IO.Sync.FileRead.FileOpenText(@"..\..\Log.cs");
             //IO.Sync.FileRead.ReaderRead(@"..\..\Log.cs");
             //IO.Sync.FileRead.ConsoleInOut();
@@ -253,8 +261,58 @@ namespace EstudosCSharp
             //IO.Sync.Stream.BinaryReaderGetsFileSignatureSync();
             //IO.Async.Stream.FileStreamAsync();
             //IO.Async.Stream.FileStreamWithStateAsync();
-            var h = IO.Async.Stream.DelegateInvocation().AsyncWaitHandle;
-            h.WaitOne();
+            //// delegate Invocation init
+            //var h = IO.Async.Stream.DelegateInvocation();
+            //while (!h.IsCompleted)
+            //    continue;
+            //Thread.Sleep(200);
+            //// delegate Invocation fim
+            //IO.NamedPipes.Sample(); // creates a server
+            //IO.NamedPipes.Sample("server"); // creates a client of the server (instatiate in another console to see them sending message in server to client direction);
+
+            //Security.Crypto.Symmetric.Aes.Encrypt(@"..\..\Log2.cs");
+            //Security.Crypto.Symmetric.Aes.Decrypt(@"..\..\Log2.cs");
+            //Security.UnhandledException.Sample();
+
+            //Systems.WeakReference.Test();
+            //Systems.Dynamic.ExpandoObject.Sample();
+
+            //Assemblyy.Samples.Load();
+
+            //Threads.Samples.CancellationTokenSource();
+            //Threads.Samples.TaskCompletionSource();
+            //Threads.Samples.TaskFromAsync("EstudosCSharp.exe");
+            //Threads.Samples.ContinueWhenAll(new[] { "EstudosCSharp.exe", "EstudosCSharp.pdb" });
+            //Threads.Samples.WaitAll();
+
+            //Interfaces.VisibilitySample.Sample();
+
+            //Regexs.Samples.Pattern1();
+            //Regexs.Samples.Pattern2();
+            //Regexs.Samples.Pattern3();
+            //Regexs.Samples.Pattern4();
+            //Regexs.Samples.Pattern5();
+            //Regexs.Samples.Pattern6();
+            //Regexs.Samples.Pattern7();
+            //Regexs.Samples.Pattern8();
+            //Regexs.Samples.Pattern9();
+            //Regexs.Samples.Pattern10();
+            //Regexs.Samples.Pattern11();
+
+            //LinqToXML.Samples.LoadDescendantAtrribute();
+            //LinqToXML.Samples.LoadDescendantElementGreaterThan();
+            //LinqToXML.Samples.CreateXMLTree();
+            //LinqToXML.Samples.ParentPropertyOfChildNodes();
+            //LinqToXML.Samples.AddTextCreateOrNotANode();
+            //LinqToXML.Samples.EmptyNodeValueDoesntDeleteIt();
+            //LinqToXML.Samples.NodeTextSerialization();
+            //LinqToXML.Samples.NamespacesAreAttributes();
+            //LinqToXML.Samples.XPathAxis();
+            //LinqToXML.Samples.DeclarationIsProperty();
+            //XMLDOM.Samples.FormerXmlDocument();
+            //XMLDOM.Samples.AlternateToFormer();
+            XMLDOM.Samples.XmlAttributeOverriding();
+
             Console.Write("press any key to exit");
             Console.ReadKey();
         }

@@ -76,7 +76,7 @@ namespace EstudosCSharp.IO.Async
         private static void _OnReadCompleted(IAsyncResult result)
         {
             int n = _fs.EndRead(result);
-            byte[] buffer = (byte[])result.AsyncState; // access the state parameter `buffer`
+            byte[] buffer = (byte[])result.AsyncState; // access the state parameter `buffer`. It was available since early versions of .NET, but before lambda expressions launch, when this parameter became redundant, since it´s possible to access through closures
             
             Console.SetCursorPosition(0, 3);
             Console.WriteLine("{0} bytes read --> {1}", n, string.Join("",buffer.Take(10)));
@@ -105,6 +105,12 @@ namespace EstudosCSharp.IO.Async
             }
         }
 
+        /// <summary>
+        /// it’s possible to invoke any delegate asynchronously using the
+        /// BeginInvoke method.To retrieve the result of the computation, you use the corresponding
+        /// EndInvoke method, which obviously takes in an IAsyncResult
+        /// </summary>
+        /// <returns></returns>
         public static IAsyncResult DelegateInvocation()
         {
             Func<int, int> twice = x => x * 2;
@@ -117,5 +123,7 @@ namespace EstudosCSharp.IO.Async
             }, null /* the dreaded state parameter */);
 
         }
+
+        /// NEXT - Beware of Lifetime Issues - 1420
     }
 }

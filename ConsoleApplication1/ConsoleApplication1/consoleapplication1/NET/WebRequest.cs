@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.AccessControl;
+using System.Text;
 using System.Web.Script.Serialization;
 
 namespace EstudosCSharp.NET
@@ -56,6 +58,25 @@ namespace EstudosCSharp.NET
             var print = PrepareForPrint(lst);
             System.Console.WriteLine("Cats with HttpWebRequest");
             System.Console.WriteLine(string.Join(Environment.NewLine,print.Take(5)));
+        }
+
+        /// <summary>
+        /// using HttpWebRequest with streamWriter
+        /// </summary>
+        public static void RequestCatsDataHttpWebRequestAndWritesFile()
+        {
+            System.Net.HttpWebRequest http = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(uri);
+            System.Net.WebResponse response = http.GetResponse();
+            Stream stream = response.GetResponseStream();
+            StreamReader streamReader = new StreamReader(stream);
+            string data = streamReader.ReadToEnd();
+            
+            //var x = File.Create("CatsData.txt", data.Length, FileOptions.WriteThrough);
+            StreamWriter writer = new StreamWriter("CatsData.txt");
+            writer.Write(data);
+            writer.Close();
+            System.Console.WriteLine("Cats with HttpWebRequest and StreamWriter. File was wroten:");
+            System.Console.WriteLine(string.Join(Environment.NewLine, File.ReadAllLines("CatsData.txt", Encoding.UTF8).Take(20)));
         }
 
         public static T Clamp<T>(T value, T min, T max) where T : IComparable<T>

@@ -20,3 +20,4 @@ E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleAppli
 E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.pdb
 E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Net.Http.dll
 E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csproj.CopyComplete
+E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\XMLs\PurchaseOrder.xml
