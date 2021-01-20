@@ -13,7 +13,8 @@ namespace EstudosCSharp.XMLDOM
     public static class Samples
     {
         /// <summary>
-        ///  the following example uses a typical way to create an XML tree using the Microsoft implementation of DOM, XmlDocument. This style of coding hides the structure of the XML tree
+        ///  the following example uses a typical way to create an XML tree using the Microsoft implementation of DOM, XmlDocument. 
+        ///  This style of coding hides the structure of the XML tree
         /// </summary>
         public static void FormerXmlDocument()
         {
@@ -51,7 +52,7 @@ namespace EstudosCSharp.XMLDOM
         }
 
         /// <summary>
-        /// alternate approach to former XmlDocument DOM, using functional construction
+        /// alternate approach to former XmlDocument DOM, using functional construction with Linq to XML
         /// </summary>
         public static void AlternateToFormer()
         {

@@ -21,3 +21,16 @@ E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleAppli
 E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Net.Http.dll
 E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csproj.CopyComplete
 E:\EstudosCSharp4Repository\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\XMLs\PurchaseOrder.xml
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csprojAssemblyReference.cache
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.exe
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.pdb
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\XMLs\PurchaseOrder.xml
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.exe.config
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.exe
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\EstudosCSharp.pdb
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Net.Http.dll
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Net.Http.xml
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\obj\Debug\EstudosCSharp.csproj.CopyComplete

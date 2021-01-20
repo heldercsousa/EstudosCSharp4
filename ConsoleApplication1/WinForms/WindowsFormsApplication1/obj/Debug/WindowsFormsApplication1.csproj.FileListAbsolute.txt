@@ -1,0 +1,16 @@
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\XMLs\PurchaseOrder.xml
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\EstudosCSharp.exe
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\EstudosCSharp.pdb
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\bin\Debug\EstudosCSharp.exe.config
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CountDownForm.resources
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PersonForm.resources
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Helder\Documents\EstudosCSharp4\ConsoleApplication1\WinForms\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

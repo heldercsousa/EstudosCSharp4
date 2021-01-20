@@ -198,7 +198,7 @@ namespace EstudosCSharp
             //CultureFormatting.FormatingNumberToString();
             //CultureFormatting.Sifrao();
             //CultureFormatting.DateTimeFormats();
-            FormattingByHand.UsingStringFormat();
+            //FormattingByHand.UsingStringFormat();
 
             ////// PerfomanceCounter
             //BCL.Diagnostics.DevelopmentTime.PerfomanceCounter.MimicBankTransaction();
@@ -225,6 +225,7 @@ namespace EstudosCSharp
             //BCL.Diagnostics.Processes.ProcessesInfo.StartProcess("cmd.exe");
             ////BCL.Diagnostics.Processes.ProcessesInfo.StartProcess("https://www.youtube.com/watch?v=qIikGK0MmBE&list=RDMMC8mS1CVXjys&index=3");
             //BCL.Diagnostics.Processes.ProcessesInfo.StartProcessAsync("cmd.exe");
+            //BCL.NamedParams.AllowedNamedPositionalParams();
             //Console.WriteLine("press some key to exit");
             //Console.Read();
 
@@ -297,7 +298,7 @@ namespace EstudosCSharp
             //Regexs.Samples.Pattern8();
             //Regexs.Samples.Pattern9();
             //Regexs.Samples.Pattern10();
-            //Regexs.Samples.Pattern11();
+            Regexs.Samples.Pattern11();
 
             //LinqToXML.Samples.LoadDescendantAtrribute();
             //LinqToXML.Samples.LoadDescendantElementGreaterThan();
@@ -311,7 +312,7 @@ namespace EstudosCSharp
             //LinqToXML.Samples.DeclarationIsProperty();
             //XMLDOM.Samples.FormerXmlDocument();
             //XMLDOM.Samples.AlternateToFormer();
-            XMLDOM.Samples.XmlAttributeOverriding();
+            //XMLDOM.Samples.XmlAttributeOverriding();
 
             Console.Write("press any key to exit");
             Console.ReadKey();
