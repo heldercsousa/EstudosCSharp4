@@ -288,18 +288,29 @@ namespace EstudosCSharp
 
             //Interfaces.VisibilitySample.Sample();
 
-            //Regexs.Samples.Pattern1();
-            //Regexs.Samples.Pattern2();
-            //Regexs.Samples.Pattern3();
-            //Regexs.Samples.Pattern4();
-            //Regexs.Samples.Pattern5();
-            //Regexs.Samples.Pattern6();
-            //Regexs.Samples.Pattern7();
-            //Regexs.Samples.Pattern8();
-            //Regexs.Samples.Pattern9();
-            //Regexs.Samples.Pattern10();
+            Regexs.Samples.Pattern1();
+            Regexs.Samples.Pattern2();
+            Regexs.Samples.Pattern3();
+            Regexs.Samples.Pattern4();
+            Regexs.Samples.Pattern5();
+            Regexs.Samples.Pattern6();
+            Regexs.Samples.Pattern7();
+            Regexs.Samples.Pattern8();
+            Regexs.Samples.Pattern9();
+            Regexs.Samples.Pattern10();
             Regexs.Samples.Pattern11();
-
+            Regexs.Samples.Pattern12();
+            Regexs.Samples.Pattern13();
+            Regexs.Samples.Pattern14();
+            Regexs.Samples.Pattern15();
+            Regexs.Samples.Pattern16();
+            Regexs.Samples.Pattern17();
+            Regexs.Samples.Pattern18();
+            Regexs.Samples.Pattern19();
+            Regexs.Samples.Pattern20();
+            Regexs.Samples.Pattern21();
+            Regexs.Samples.Pattern22();
+            Regexs.Samples.Pattern23();
             //LinqToXML.Samples.LoadDescendantAtrribute();
             //LinqToXML.Samples.LoadDescendantElementGreaterThan();
             //LinqToXML.Samples.CreateXMLTree();

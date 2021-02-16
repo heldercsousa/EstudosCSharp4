@@ -50,6 +50,6 @@ namespace EstudosCSharp.IO
             }
         }
 
-        //  parei na A Primer to (Named) Pipes- 1423
+        //  parei na A Primer to (Named) Pipes- pg 1423 Livro C# 4 Unleashed
     }
 }
